@@ -1,0 +1,92 @@
+Ctrl + shift  + F   = Format Code
+Ctrl + 1 to generate getters and setters
+ctrl+alt+down to copy lines 
+Ctrl + space = search dependencies
+
+In spring : 
+
+- Bean : In Spring, the objects that form the backbone of your application and that are managed by the Spring IoC container
+
+
+Ways to Inject values into entities 
+
+method 1 : value as element
+ <bean name="emp"
+		class="com.tanveer.spring.springcore.Employee" >
+		<property name="id">
+			<value>20</value>
+		</property>
+
+		<property name="name">
+			<value>Tanveer</value>
+		</property>
+	</bean>
+
+
+Method 2:  value as attribute
+ <bean name="emp"
+		class="com.tanveer.spring.springcore.Employee"  >
+		<property name="id" value ="20">
+			
+		</property>
+
+		<property name="name" value = "Tanveer">
+		</property>
+	</bean>
+
+method 3 to inject values
+using p:schema 
+
+
+xmlns:p="http://www.springframework.org/schema/p"
+<bean name="emp"
+		class="com.tanveer.spring.springcore.Employee"
+		 p:id="20" p:name="Tanveer"
+		 >
+		
+	</bean>
+
+
+
+--- Ref as Attribute and P Schema
+
+<bean name="student" class="com.tanveer.spring.springcore.ref.Student" p:scores-ref="scores"/>
+
+
+
+---------- 
+
+LIFE CYCLE METHODS SUMMARY 
+
+init 
+destroy 
+XML Configuration 
+init-method 
+destroy-method
+
+
+Method 2 : Annotations 
+@PostConstruct 
+@PreDestroy
+
+
+
+Method 3 : Spring Interfaces 
+InitializingBean
+DisposableBean
+
+
+
+------ 
+
+BEAN SCOPES 
+scopes is the availabilty of objects in a container
+
+singleton 
+
+
+
+
+
+
+
