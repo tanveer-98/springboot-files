@@ -1,0 +1,12 @@
+package com.tanveer.spring.springorm.product.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
+
+public class Test {
+	public static void main(String[] args) {
+		ApplicationContext ctx = new ClassPathXml
+	}
+	
+
+}

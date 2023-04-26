@@ -1,0 +1,49 @@
+1679894310686	Encapsulate field 'id'
+1679894314064	Encapsulate field 'name'
+1679894322948	Delete element
+1679894328541	Delete element
+1679894597695	Move file
+1679895636282	Move file
+1679895735932	Copy file
+1679895740767	Copy file
+1679895780006	Delete elements
+1679895781664	Move file
+1679895851609	Move file
+1679895901237	Move file
+1679896563968	Move file
+1679896588538	Move file
+1679898779042	Delete element
+1679898784873	Copy file
+1679898793768	Rename resource 'config.xml'
+1679899365060	Encapsulate field 'name'
+1679899368502	Encapsulate field 'departments'
+1679900230381	Encapsulate field 'name'
+1679900233783	Encapsulate field 'models'
+1679900244515	Copy file
+1679900251584	Rename resource 'listconfig.xml'
+1679901419128	Encapsulate field 'id'
+1679901436733	Encapsulate field 'products'
+1679901505955	Copy file
+1679906251570	Copy compilation unit
+1679907893073	Copy file
+1679907977016	Encapsulate field 'countryAndLangs'
+1679908865133	Encapsulate field 'maths'
+1679908870186	Encapsulate field 'physics'
+1679908873300	Encapsulate field 'chemistry'
+1679908942693	Encapsulate field 'score'
+1679908963594	Copy file
+1679910165093	Copy compilation unit
+1679913917792	Delete element
+1679913952637	Encapsulate field 'id'
+1679913958212	Copy file
+1679914255069	Rename package 'com.bharath.spring.springcore.lc.xmlconfig'
+1679916336128	Copy elements
+1679920416702	Copy elements
+1680074597861	Copy elements
+1680074613146	Rename type 'Patient'
+1680074836875	Delete element
+1680075064462	Copy elements
+1680080886783	Rename package 'com.tanveer.spring.springcore.innerBeans'
+1680081068510	Copy file
+1680084130862	Copy compilation units
+1680084208171	Copy file

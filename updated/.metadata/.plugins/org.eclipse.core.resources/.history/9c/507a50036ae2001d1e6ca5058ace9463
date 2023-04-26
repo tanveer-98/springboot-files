@@ -1,0 +1,21 @@
+package com.tanveer.spring.springorm.product.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
+
+
+
+public class Test {
+	public static void main(String[] args) {
+		ApplicationContext ctx = 
+		new ClassPathXmlApplicationContext("com/tanveer/spring/springorm/product/test/setconfig.xml");
+		// while using annotaions with classes beans are created according to the class Names 
+		
+		ProductDao bean = (ProductDao) context.getBean('productDao');
+		
+		
+	}
+	
+
+}

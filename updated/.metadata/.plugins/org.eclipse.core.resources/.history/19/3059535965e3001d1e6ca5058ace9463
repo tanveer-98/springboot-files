@@ -1,0 +1,20 @@
+package com.tanveer.spring.springmvc;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+
+// controller bean
+// process the incoming http requests 
+
+@Controller
+public class HelloController {
+	
+	@RequestMapping("/hello")
+	public ModelAndView hello() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("hello");
+		return new ModelAndView();
+		
+	}
+}
