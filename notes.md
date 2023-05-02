@@ -48,8 +48,7 @@ xmlns:p="http://www.springframework.org/schema/p"
 		class="com.tanveer.spring.springcore.Employee"
 		 p:id="20" p:name="Tanveer"
 		 >
-
-	</bean>
+</bean>
 ```
 
 --- Ref as Attribute and P Schema

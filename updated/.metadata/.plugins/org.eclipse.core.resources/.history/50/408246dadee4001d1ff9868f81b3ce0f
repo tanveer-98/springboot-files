@@ -1,0 +1,5 @@
+package com.tanveer.spring.springmvc.controller;
+
+public class ListController {
+
+}

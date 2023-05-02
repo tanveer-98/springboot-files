@@ -1,10 +1,18 @@
 package com.tanveer.spring.springmvc.dto;
 
+import java.util.*;
+
+
 public class Employee {
 	private int id ; 
-	private string name; 
+	private String name; 
 	private double salary;
-
+	
+	
+	@Override
+	public String toString() {
+		return "Employee [id=" + this.id + ", name=" + this.name + ", salary=" + this.salary + "]";
+	}
 	
 	public int getId() {
 		return id;
@@ -12,10 +20,13 @@ public class Employee {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public string getName() {
+	
+	
+	
+	public String getName() {
 		return name;
 	}
-	public void setName(string name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 	public double getSalary() {
@@ -24,6 +35,4 @@ public class Employee {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-	
-
 }

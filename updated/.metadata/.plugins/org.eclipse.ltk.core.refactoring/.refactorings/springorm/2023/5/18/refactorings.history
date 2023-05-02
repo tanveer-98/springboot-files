@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;setconfig.xml&apos; to &apos;WEB-INF&apos;&#x0D;&#x0A;- Original project: &apos;springorm&apos;&#x0D;&#x0A;- Destination element: &apos;WEB-INF&apos;&#x0D;&#x0A;- Original element: &apos;setconfig.xml&apos;" description="Copy file" element1="src/main/java/com/tanveer/spring/springorm/product/test/setconfig.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1682994282114" target="/springmvcorm/src/main/webapp/WEB-INF" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,15 @@
+package com.tanveer.spring.springmvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class RequestParamController {
+
+	@RequestMapping("/showData")
+		public ModelAndView showData(@RequestParam("id") int id , String name , double salary) {
+		
+		return new ModelAndView();
+	}
+	
+}

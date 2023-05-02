@@ -1,0 +1,17 @@
+package com.tanveer.spring.springmvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class UserController {
+	public ModelAndView showRegistrationPage() {
+		ModelAndView modelView = new ModelAndView();
+		
+		modelView.setViewName("userReg");
+		
+		
+		return modelView;
+	}
+	
+}

@@ -1,0 +1,9 @@
+127.0.0.1 - - [30/Apr/2023:11:31:24 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Apr/2023:11:31:29 +0530] "GET /springmvc/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [30/Apr/2023:11:31:41 +0530] "GET /springmvc/userReg HTTP/1.1" 200 393
+0:0:0:0:0:0:0:1 - - [30/Apr/2023:11:31:57 +0530] "POST /springmvc/registerUser HTTP/1.1" 200 393
+0:0:0:0:0:0:0:1 - - [30/Apr/2023:11:41:47 +0530] "POST /springmvc/registerUser HTTP/1.1" 200 225
+127.0.0.1 - - [30/Apr/2023:14:48:45 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Apr/2023:14:48:59 +0530] "GET /springmvc/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [30/Apr/2023:14:49:18 +0530] "GET /springmvc/showData?name=Tanveer%20Ahmed HTTP/1.1" 400 834
+0:0:0:0:0:0:0:1 - - [30/Apr/2023:14:49:37 +0530] "GET /springmvc/showData?name=Tanveer%20Ahmed&id=1&salary=22222 HTTP/1.1" 200 414

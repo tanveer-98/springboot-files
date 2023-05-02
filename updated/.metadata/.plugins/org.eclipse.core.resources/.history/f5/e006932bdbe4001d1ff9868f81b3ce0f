@@ -1,0 +1,33 @@
+package com.tanveer.spring.springmvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.tanveer.spring.springmvc.dto.Employee;
+
+
+// controller bean
+// process the incoming http requests 
+
+@Controller
+public class ObjectController {
+	
+	@RequestMapping("/readObject")
+	public ModelAndView hello() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("hello");
+		
+		Employee e = new Employee();
+		e.setId(123);
+		
+//		modelAndView.addObject("id" , 123);
+//		modelAndView.addObject("name" , "Bharath");
+//		modelAndView.addObject("salary" , 10000);
+		
+		modelAndView.addObject("employee" , e);
+		
+		return modelAndView;
+		
+	}
+}
