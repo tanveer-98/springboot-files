@@ -15,7 +15,7 @@
 	<tx:annotation-driven />
 
 	<context:component-scan
-		base-package="com.tanveer.spring.springorm.product.dao.impl" />
+		base-package="com.tanveer.spring.springmvcorm.user" />
 
 
 	<bean
@@ -37,7 +37,7 @@
 		</property>
 		<property name="annotatedClasses">
 			<list>
-				<value>com.tanveer.spring.springorm.product.entity.Product</value>
+				<value>com.tanveer.spring.springmvcorm.user.entity.User</value>
 			</list>
 		</property>
 	</bean>
